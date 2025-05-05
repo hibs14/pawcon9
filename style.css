@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.right-side{
+    font-size:15px ;
+}
+
+.navigations nav ul li{
+    display: inline;
+    
+}
+.navigations nav ul{
+    margin: 10px;
+    padding: 10px;
+}
+.navigations nav ul a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.navigations nav ul a:hover{
+    color: brown;
+    font-weight: 500;
+}
+
+.right-side a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.right-side a:hover{
+    color: brown;
+    font-weight: 700;
+
+}
+
+.right-side button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.right-side button:hover{
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+}
